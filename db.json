@@ -1,0 +1,16 @@
+{
+  "clients": [
+    {
+      "name": "Carlos",
+      "lastName": "Navarro",
+      "id": 1000
+    },
+    {
+      "lastName": "Alvarado",
+      "id": 1001
+    }
+  ],
+  "html": {
+    "content": " <p #ng > VENGO DESDE EL SERVIDOR  </p>   <button style='color:red' (click)='openLogin()' class ='holis'>Saludar! </button> {{ saludar}} "
+  }
+}
