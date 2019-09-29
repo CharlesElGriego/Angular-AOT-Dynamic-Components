@@ -1,16 +1,10 @@
 {
-  "clients": [
-    {
-      "name": "Carlos",
-      "lastName": "Navarro",
-      "id": 1000
-    },
-    {
-      "lastName": "Alvarado",
-      "id": 1001
-    }
-  ],
+  "user": {
+    "firstName": "Charles",
+    "lastName": "El Griego",
+    "id": 1000
+  },
   "html": {
-    "content": " <p #ng > VENGO DESDE EL SERVIDOR  </p>   <button style='color:red' (click)='openLogin()' class ='holis'>Saludar! </button> {{ saludar}} "
+    "content": " <div> <p> {{user?.firstName}}  {{user?.lastName}} </p> <button class='button-color' (click)='clickMe()'>Click Me! </button> </div>   <div *ngIf='showText'> <p> You clicked the button!</p></div> "
   }
 }
