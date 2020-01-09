@@ -1,7 +1,7 @@
 import { Component, ComponentRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
-import { UserComponent } from '../../components-dynamic';
-import { SafeurlPipe } from '../../safeurl.pipe';
-import { DataService, DynamicComponentService } from '../../services';
+import { UserComponent } from '../../../components-dynamic';
+import { SafeurlPipe } from '../../../safeurl.pipe';
+import { DataService, DynamicComponentService } from '../../../services';
 
 
 @Component({

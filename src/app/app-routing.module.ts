@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'test',
     loadChildren: () => import('./dynamic-content/dynamic-content.module').then(m => m.DynamicContentModule)
   }
 ];
