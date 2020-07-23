@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular8-dynamic-components';
+  title = 'angular10-dynamic-components';
 }
