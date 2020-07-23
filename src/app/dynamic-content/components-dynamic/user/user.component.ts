@@ -1,7 +1,11 @@
-import { OnDestroy, OnInit } from '@angular/core';
+import { Directive, OnDestroy, OnInit } from '@angular/core';
 import { User } from '../../models';
 import { DataService } from '../../services';
+@Directive() // This is a hotfix, please see
+// https://stackoverflow.com/questions/60116361/angular-9-basecomponent-with-injectable
+// https://github.com/angular/angular/issues/35367#issuecomment-585136872
 
+// tslint:disable-next-line:directive-class-suffix
 export class UserComponent implements OnInit, OnDestroy {
 
     //  Public Properties

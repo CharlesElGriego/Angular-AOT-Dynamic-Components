@@ -44,7 +44,7 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true,
+              "buildOptimizer": false,
               "budgets": [
                 {
                   "type": "initial",
@@ -115,6 +115,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular8-dynamic-components"
 }
